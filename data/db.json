@@ -1,49 +1,178 @@
 {
     "students": [
-      {
-        "id": 1,
-        "name": "พรพิมล อยู่เย็น",
-        "student_id": "6630250265",
-        "major": "วิทยาการคอมพิวเตอร์",
-        "school": "โรงเรียนยโสธรพิทยาคม",
-        "photo": "studentprofile.jpg"
-      }
+        {
+            "id": 1,
+            "name": "พรพิมล อยู่เย็น",
+            "student_id": "6630250265",
+            "major": "วิทยาการคอมพิวเตอร์",
+            "school": "โรงเรียนยโสธรพิทยาคม",
+            "photo": "studentprofile.jpg"
+        }
     ],
     "courses": {
-      "ปี1": {
-        "เทอม1": [
-          { "id": 1, "code": "01999021", "name": "ภาษาไทยเพื่อการสื่อสาร Thai Language for Communication", "credits": 3, "grade": "C+" },
-          { "id": 2, "code": "01418111", "name": "วิทยาการคอมพิวเตอร์เบื้องต้น Introduction to Computer Science", "credits": 2, "grade": "C+" },
-          { "id": 3, "code": "01355101", "name": "ภาษาอังกฤษในชีวิตประจำวัน English for Everyday Life", "credits": 3, "grade": "B" },
-          { "id": 4, "code": "01418141", "name": "ทรัพย์สินทางปัญญาและจรรยาบรรณวิชาชีพ Intellectual Properties and Professional Ethics", "credits": 3, "grade": "B+" },
-          { "id": 5, "code": "01417111", "name": "แคลคูลัส I Calculus I", "credits": 3, "grade": "W" },
-          { "id": 6, "code": "01418112", "name": "แนวคิดการโปรแกรมเบื้องต้น Fundamental Programming Concepts", "credits": 3, "grade": "C" },
-          { "id": 7, "code": "01999111", "name": "ศาสตร์แห่งแผ่นดิน Knowledge of the Land", "credits": 2, "grade": "B+" },
-          { "id": 8, "code": "03751112", "name": "สังคมและการเมือง Social and Politics", "credits": 3, "grade": "C+" }
-          
-        ],
-        "เทอม2": [
-          { "id": 9, "code": "01418113", "name": "การโปรแกรมคอมพิวเตอร์ Computer Programming", "credits": 3, "grade": "C" },
-          { "id": 10, "code": "01418131", "name": "การโปรแกรมทางสถิติ Statistical Programming", "credits": 3, "grade": "C" },
-          { "id": 11, "code": "01418132", "name": "หลักมูลการคณนา Fundamentals of Computing", "credits": 3, "grade": "F" },
-          { "id": 12, "code": "01999041", "name": "เศรษฐศาสตร์เพื่อการดำเนินชีวิตที่ดี Economics for Better Living", "credits": 3, "grade": "C" },
-          { "id": 13, "code": "03654111", "name": "สุนทรียศาสตร์ทางการกีฬา Aesthetics of Sport", "credits": 3, "grade": "A" },
-          { "id": 14, "code": "01175163", "name": "กอล์ฟเพื่อสุขภาพ Golf for Health", "credits": 1, "grade": "A" },
-          { "id": 15, "code": "01417322", "name": "พีชคณิตเชิงเส้นพื้นฐาน Basic Linear Algebra", "credits": 3, "grade": "F" }
-         
-        ]
-      },
-      "ปี2": {
-        "เทอม1": [
-          { "id": 16, "code": "01999012", "name": "สุขภาพเพื่อชีวิต Health for Lifes", "credits": 3, "grade": "A" },
-          { "id": 17, "code": "01418233", "name": "สถาปัตยกรรมคอมพิวเตอร์ Computer Architecture", "credits": 3, "grade": "C" },
-          { "id": 18, "code": "01418223", "name": "วิทยาการข้อมูลและโปรแกรมประยุกต์ Data Science and Application Programs", "credits": 3, "grade": "B" },
-          { "id": 19, "code": "01418231", "name": "โครงสร้างข้อมูลและขั้นตอนวิธี Data Structures and Algorithms", "credits": 3, "grade": "C" },
-          { "id": 20, "code": "01417111", "name": "แคลคูลัส I Calculus I", "credits": 3, "grade": "W" },
-          { "id": 21, "code": "01418211", "name": "การสร้างซอฟต์แวร์ Software Construction", "credits": 3, "grade": "D+" },
-          { "id": 22, "code": "01174231", "name": "นันทนาการเบื้องต้น Introduction to Recreation", "credits": 2, "grade": "C+" }
-          
-        ]
-      }
+        "ปี1": {
+            "เทอม1": [
+                {
+                    "id": 1,
+                    "code": "01999021",
+                    "name": "ภาษาไทยเพื่อการสื่อสาร Thai Language for Communication",
+                    "credits": 3,
+                    "grade": "C+"
+                },
+                {
+                    "id": 2,
+                    "code": "01418111",
+                    "name": "วิทยาการคอมพิวเตอร์เบื้องต้น Introduction to Computer Science",
+                    "credits": 2,
+                    "grade": "C+"
+                },
+                {
+                    "id": 3,
+                    "code": "01355101",
+                    "name": "ภาษาอังกฤษในชีวิตประจำวัน English for Everyday Life",
+                    "credits": 3,
+                    "grade": "B"
+                },
+                {
+                    "id": 4,
+                    "code": "01418141",
+                    "name": "ทรัพย์สินทางปัญญาและจรรยาบรรณวิชาชีพ Intellectual Properties and Professional Ethics",
+                    "credits": 3,
+                    "grade": "B+"
+                },
+                {
+                    "id": 5,
+                    "code": "01417111",
+                    "name": "แคลคูลัส I Calculus I",
+                    "credits": 3,
+                    "grade": "W"
+                },
+                {
+                    "id": 6,
+                    "code": "01418112",
+                    "name": "แนวคิดการโปรแกรมเบื้องต้น Fundamental Programming Concepts",
+                    "credits": 3,
+                    "grade": "C"
+                },
+                {
+                    "id": 7,
+                    "code": "01999111",
+                    "name": "ศาสตร์แห่งแผ่นดิน Knowledge of the Land",
+                    "credits": 2,
+                    "grade": "B+"
+                },
+                {
+                    "id": 8,
+                    "code": "03751112",
+                    "name": "สังคมและการเมือง Social and Politics",
+                    "credits": 3,
+                    "grade": "C+"
+                }
+            ],
+            "เทอม2": [
+                {
+                    "id": 9,
+                    "code": "01418113",
+                    "name": "การโปรแกรมคอมพิวเตอร์ Computer Programming",
+                    "credits": 3,
+                    "grade": "C"
+                },
+                {
+                    "id": 10,
+                    "code": "01418131",
+                    "name": "การโปรแกรมทางสถิติ Statistical Programming",
+                    "credits": 3,
+                    "grade": "C"
+                },
+                {
+                    "id": 11,
+                    "code": "01418132",
+                    "name": "หลักมูลการคณนา Fundamentals of Computing",
+                    "credits": 3,
+                    "grade": "F"
+                },
+                {
+                    "id": 12,
+                    "code": "01999041",
+                    "name": "เศรษฐศาสตร์เพื่อการดำเนินชีวิตที่ดี Economics for Better Living",
+                    "credits": 3,
+                    "grade": "C"
+                },
+                {
+                    "id": 13,
+                    "code": "03654111",
+                    "name": "สุนทรียศาสตร์ทางการกีฬา Aesthetics of Sport",
+                    "credits": 3,
+                    "grade": "A"
+                },
+                {
+                    "id": 14,
+                    "code": "01175163",
+                    "name": "กอล์ฟเพื่อสุขภาพ Golf for Health",
+                    "credits": 1,
+                    "grade": "A"
+                },
+                {
+                    "id": 15,
+                    "code": "01417322",
+                    "name": "พีชคณิตเชิงเส้นพื้นฐาน Basic Linear Algebra",
+                    "credits": 3,
+                    "grade": "F"
+                }
+            ]
+        },
+        "ปี2": {
+            "เทอม1": [
+                {
+                    "id": 16,
+                    "code": "01999012",
+                    "name": "สุขภาพเพื่อชีวิต Health for Lifes",
+                    "credits": 3,
+                    "grade": "A"
+                },
+                {
+                    "id": 17,
+                    "code": "01418233",
+                    "name": "สถาปัตยกรรมคอมพิวเตอร์ Computer Architecture",
+                    "credits": 3,
+                    "grade": "C"
+                },
+                {
+                    "id": 18,
+                    "code": "01418223",
+                    "name": "วิทยาการข้อมูลและโปรแกรมประยุกต์ Data Science and Application Programs",
+                    "credits": 3,
+                    "grade": "B"
+                },
+                {
+                    "id": 19,
+                    "code": "01418231",
+                    "name": "โครงสร้างข้อมูลและขั้นตอนวิธี Data Structures and Algorithms",
+                    "credits": 3,
+                    "grade": "C"
+                },
+                {
+                    "id": 20,
+                    "code": "01417111",
+                    "name": "แคลคูลัส I Calculus I",
+                    "credits": 3,
+                    "grade": "W"
+                },
+                {
+                    "id": 21,
+                    "code": "01418211",
+                    "name": "การสร้างซอฟต์แวร์ Software Construction",
+                    "credits": 3,
+                    "grade": "D+"
+                },
+                {
+                    "id": 22,
+                    "code": "01174231",
+                    "name": "นันทนาการเบื้องต้น Introduction to Recreation",
+                    "credits": 2,
+                    "grade": "C+"
+                }
+            ]
+        }
     }
-  }
+}
